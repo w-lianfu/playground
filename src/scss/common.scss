@@ -30,4 +30,6 @@ p, button, input, a, span, dd, li, textarea, label, b, strong, del, u {
   color: inherit;
 }
 
-
+input:focus, button:focus, a:focus, image:focus {
+  outline: none;
+}

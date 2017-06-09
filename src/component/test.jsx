@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
+/* 引入自定义组件 */
 import {
 	DatePickerComp
 } from './antd.jsx';
 import {
 	CollapseComp
 } from './reactstrap.jsx';
+import {
+	BackButton
+} from './styled.jsx';
 
 class Test extends Component {
   constructor(props) {
@@ -14,6 +18,10 @@ class Test extends Component {
   
   onChange(date, dateString) {
     console.log(date, dateString);
+  }
+  
+  back() {
+	  this.props.history.goBack();
   }
   
   render() {
@@ -26,6 +34,7 @@ class Test extends Component {
 		<p>---------------------------------</p>
 		<p>reactstrap 组件</p>
 		<CollapseComp />
+		<BackButton onClick={this.back.bind(this)}>返回</BackButton>
       </div>
     );
   }

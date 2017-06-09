@@ -16,7 +16,7 @@ const history = createBrowserHistory();
 render (
   <Router history={history}>
     <div>
-      <Route path='/' component={Home} />
+      <Route exact path='/' component={Home} />
       <Route path='/test' component={Test} />
     </div>
   </Router>,

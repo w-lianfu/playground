@@ -4,6 +4,15 @@ import {
 } from 'react-router-dom';
 import { observer } from 'mobx-react';
 
+/* 引入自定义函数 */
+import '../data/fetch-data';
+import '../script/ramda-module';
+
+import {
+	MultiselectComp,
+	DropdownListComp
+} from './widget.jsx';
+
 import HomeData from '../store/home-data';
 
 const homeData = new HomeData();
@@ -48,13 +57,15 @@ class Home extends Component {
 			<i className='material-icons'>flight_takeoff</i>
 		</p>
 		<p>---------------------------------</p>
+		<MultiselectComp />
+		<DropdownListComp />
 		<img src='/image/vva.jpeg' style={{width:'200px',height:'200px'}} />
 		<p className='box'></p>
         <p>新版App Store在页面设计上明显更注重应用内容的直接展示。通过卡片式的视觉设计，单款应用的内容
 		可以几乎占满整个屏幕。展示的信息量更大，用户获取应用信息的体验也将更加直观且详细。而且，苹果在每个
 		应用的下方，还增加了一个社交分享按钮。通过点击，用户可以很方便地和其朋友分享某个应用的「故事」。
 		而这无疑能够帮助开发者进一步推广其应用。</p>
-        <Link to='/test'>test</Link>
+        <Link to='/test'>进入test页面</Link>
       </div>
     );
   }
