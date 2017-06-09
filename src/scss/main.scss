@@ -1,0 +1,13 @@
+@import './common.scss';
+@import './override.scss';
+
+#app {
+  padding: 1rem;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background: url(/image/ss.jpeg) no-repeat;
+  background-size: 100% 100%;
+}
