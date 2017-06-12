@@ -8,6 +8,7 @@ import { observer } from 'mobx-react';
 import '../data/fetch-data';
 import '../script/ramda-module';
 
+/* 引入组件 */
 import {
 	MultiselectComp,
 	DropdownListComp
