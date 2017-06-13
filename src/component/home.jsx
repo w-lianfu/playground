@@ -13,6 +13,10 @@ import {
 	MultiselectComp,
 	DropdownListComp
 } from './widget.jsx';
+import {
+	Demo,
+	AddComp
+} from './mui/demo.jsx';
 
 import HomeData from '../store/home-data';
 
@@ -58,8 +62,14 @@ class Home extends Component {
 			<i className='material-icons'>flight_takeoff</i>
 		</p>
 		<p>---------------------------------</p>
+		<p>react widgets 组件</p>
 		<MultiselectComp />
 		<DropdownListComp />
+		<p>---------------------------------</p>
+		<p>material-ui 组件</p>
+		<Demo />
+		<AddComp />
+		<p>---------------------------------</p>
 		<img src='/image/vva.jpeg' style={{width:'200px',height:'200px'}} />
 		<p className='box'></p>
         <p>新版App Store在页面设计上明显更注重应用内容的直接展示。通过卡片式的视觉设计，单款应用的内容

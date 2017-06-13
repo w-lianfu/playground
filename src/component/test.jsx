@@ -34,6 +34,8 @@ class Test extends Component {
 		<p>---------------------------------</p>
 		<p>reactstrap 组件</p>
 		<CollapseComp />
+		<p>---------------------------------</p>
+		<p>styled-components 组件</p>
 		<BackButton onClick={this.back.bind(this)}>返回</BackButton>
       </div>
     );

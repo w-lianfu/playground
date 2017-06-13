@@ -11,6 +11,9 @@ import Test from './test.jsx';
 
 import '../scss/main.scss';
 
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
+
 const history = createBrowserHistory();
 
 render (
