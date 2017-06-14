@@ -7,9 +7,16 @@ import {
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 const Demo = () => (
-	<MuiThemeProvider>
-		<RaisedButton label='Default' />
-	</MuiThemeProvider>
+	<div>
+		<MuiThemeProvider>
+			<RaisedButton label='Default' />
+		</MuiThemeProvider>
+		<MuiThemeProvider>
+			<FloatingActionButton>
+				<ContentAdd />
+			</FloatingActionButton>
+		</MuiThemeProvider>
+	</div>
 )
 
 const AddComp = () => (
