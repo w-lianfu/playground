@@ -8,6 +8,7 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import Home from './home.jsx';
 import Test from './test.jsx';
+import { ReduxPage } from './redux-page.jsx';
 
 import '../scss/main.scss';
 
@@ -21,6 +22,7 @@ render (
     <div>
       <Route exact path='/' component={Home} />
       <Route path='/test' component={Test} />
+			<Route path='/redux-page' component={ReduxPage} />
     </div>
   </Router>,
   document.getElementById('app')
