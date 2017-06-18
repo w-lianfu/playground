@@ -1,6 +1,14 @@
 {
   "result": {
     "name": "react",
-    "text": "javascript流行框架"
+    "text": "javascript流行框架",
+		"cousers": [
+			"javascript",
+			"react",
+			"mobx",
+			"mobx-react",
+			"redux",
+			"react-redux"
+		]
   }
 }

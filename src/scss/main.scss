@@ -1,6 +1,12 @@
 @import './common.scss';
 @import './override.scss';
 
+.magenta {
+  color: $magenta;
+}
+
+/* style */
+
 #app {
   padding: 1rem;
 }

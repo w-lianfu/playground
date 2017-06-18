@@ -9,6 +9,8 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import Home from './home.jsx';
 import Test from './test.jsx';
 import { ReduxPage } from './redux-page.jsx';
+import { MobxPage } from './mobx-page.jsx';
+import { MobxPage2 } from './mobx-page2.jsx';
 
 import '../scss/main.scss';
 
@@ -23,6 +25,8 @@ render (
       <Route exact path='/' component={Home} />
       <Route path='/test' component={Test} />
 			<Route path='/redux-page' component={ReduxPage} />
+	    <Route path='/mobx-page' component={MobxPage} />
+      <Route path='/mobx-page2' component={MobxPage2} />
     </div>
   </Router>,
   document.getElementById('app')

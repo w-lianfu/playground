@@ -76,8 +76,10 @@ class Home extends Component {
 					应用的下方，还增加了一个社交分享按钮。通过点击，用户可以很方便地和其朋友分享某个应用的「故事」。
 					而这无疑能够帮助开发者进一步推广其应用。
 				</p>
-      	<p><Link to='/test'>进入test页面</Link></p>
-				<p><Link to='/redux-page'>进入redux page页面</Link></p>
+      	<p><Link to='/test' className='magenta'>进入test页面</Link></p>
+				<p><Link to='/redux-page' className='magenta'>进入redux page页面</Link></p>
+				<p><Link to='/mobx-page' className='magenta'>进入mobx page页面</Link></p>
+				<p><Link to='/mobx-page2' className='magenta'>进入mobx page2页面</Link></p>
       </div>
     );
   }
