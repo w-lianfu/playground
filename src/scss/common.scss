@@ -1,7 +1,7 @@
 $main-black: #3d464d;
 $min-blue: #4285f4;
 $bg-blue: #005999;
-$magenta: #ff00ff;
+$magenta: #f0f;
 
 * {
   margin: 0;
@@ -21,6 +21,8 @@ body {
   font-size: 1.6rem;
   color: $main-black;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p, button, input, a, span, dd, li, textarea, label, b, strong, del, u {
@@ -33,4 +35,8 @@ p, button, input, a, span, dd, li, textarea, label, b, strong, del, u {
 
 input:focus, button:focus, a:focus, image:focus {
   outline: none;
+}
+
+::selection {
+  background: #f39ca4;
 }
