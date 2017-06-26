@@ -1,6 +1,7 @@
 {
   "presets": ["latest", "react", "stage-1"],
   "plugins": [
+    "syntax-async-functions",
     "transform-decorators-legacy",
     ["import", { libraryName: "antd", style: "css" }]
   ]

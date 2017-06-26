@@ -7,6 +7,7 @@ import {
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import Home from './home.jsx';
+import Home2 from './home2.jsx';
 import Test from './test.jsx';
 import { ReduxPage } from './redux-page.jsx';
 import { MobxPage } from './mobx-page.jsx';

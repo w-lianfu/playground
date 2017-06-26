@@ -21,6 +21,10 @@ class ReduxPage extends Component {
 			num: 0
 		}
 	}
+
+	componentDidMount() {
+		console.log(this.props);
+	}
 	
 	componentWillUnmount() {
 		reset();

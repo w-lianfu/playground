@@ -9,4 +9,4 @@
 <p>使用 fetch 获取接口数据, 使用 autoprefixer 自动添加浏览器前缀</p>
 <hr/>
 <strong>使用方式</strong>
-<p>npm run server => 打开 127.0.0.1:9009 或 localhost:9009</p>
+<p>npm start => 打开 127.0.0.1:9009 或 localhost:9009</p>

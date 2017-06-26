@@ -3,9 +3,12 @@ import {
   Link
 } from 'react-router-dom';
 import { observer } from 'mobx-react';
+import Rx from 'rxjs/Rx';
 
 /* 引入自定义函数 */
 import '../data/fetch-data';
+import '../script/rx';
+import '../script/rxdb';
 
 /* 引入组件 */
 import {
@@ -39,6 +42,7 @@ class Home extends Component {
       <div>
         <p>home page --- {homeData.num}</p>
         <p>{homeData.text}</p>
+        <input type='text' ref='inName' placeholder='type your name' />
 				<p>---------------------------------</p>
 				<p>font-awesome 图标</p>
 				<p>
