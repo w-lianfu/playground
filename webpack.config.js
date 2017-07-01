@@ -71,6 +71,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   devServer: {
     contentBase: path.resolve(__dirname, './dist'),
     port: 9009,
